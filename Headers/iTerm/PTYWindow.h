@@ -29,7 +29,7 @@
  */
 
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 @protocol PTYWindowDelegateProtocol
 - (void) windowWillToggleToolbarVisibility: (id) sender;

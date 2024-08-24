@@ -6,7 +6,7 @@
 //  Copyright 2004 Positive Spin Media. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 @interface PSMRolloverButton : NSButton
 {

@@ -6,7 +6,7 @@
 //  Copyright 2005 Positive Spin Media. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 
 @interface PSMOverflowPopUpButton : NSPopUpButton {

@@ -24,7 +24,7 @@
  **  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 #define OPT_NORMAL 0
 #define OPT_META   1

@@ -10,7 +10,7 @@
  This class is a sigleton that manages the details of a tab drag and drop.  The details were beginning to overwhelm me when keeping all of this in the control and cells :-)
  */
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 #import "PSMTabBarControl.h"
 @class PSMTabBarCell;
 @class PSMTabDragWindow;

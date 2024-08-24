@@ -6,7 +6,7 @@
 //  Copyright 2006 Kent Sutherland. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 @class PSMTabBarCell;
 

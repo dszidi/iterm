@@ -8,7 +8,7 @@
 //	based on http://www.cocoadev.com/index.pl?GradientFill
 
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 
 @interface NSBezierPath (AMShading)

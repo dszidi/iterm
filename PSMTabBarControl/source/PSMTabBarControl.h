@@ -10,7 +10,7 @@
  This view provides a control interface to manage a regular NSTabView.  It looks and works like the tabbed browsing interface of many popular browsers.
  */
 
-#import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
 
 #define PSMTabDragDidEndNotification @"PSMTabDragDidEndNotification"
 #define PSMTabDragDidBeginNotification @"PSMTabDragDidBeginNotification"
