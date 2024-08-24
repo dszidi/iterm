@@ -1,7 +1,7 @@
 # Set the GNUstep environment variables
 # GNUSTEP_MAKEFILES = $(shell gnustep-config --variable=GNUSTEP_MAKEFILES)
 CC = clang
-CFLAGS = -Wall -g -O2 -fobjc-exceptions -I. -fblocks $(shell gnustep-config --objc-flags)
+CFLAGS = -Wall -g -O2 -fobjc-exceptions -I. -fblocks $(shell gnustep-config --objc-flags) -IHeaders
 LDFLAGS = $(shell gnustep-config --base-libs) -lgnustep-base -lgnustep-gui -lobjc
 
 include $(GNUSTEP_MAKEFILES)/common.make
