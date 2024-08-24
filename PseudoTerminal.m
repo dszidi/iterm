@@ -34,8 +34,7 @@
 
 #define WINDOW_NAME @"iTerm Window 0"
 
-#import <GNUstepBase/GNUstep.h>
-#import <GNUstepGUI/GNUstep.h>
+#import <AppKit/AppKit.h>
 #import <iTerm/iTerm.h>
 #import <iTerm/PseudoTerminal.h>
 #import <iTerm/PTYScrollView.h>
