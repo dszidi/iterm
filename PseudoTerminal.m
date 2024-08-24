@@ -34,6 +34,8 @@
 
 #define WINDOW_NAME @"iTerm Window 0"
 
+#import <GNUstepBase/GNUstep.h>
+#import <GNUstepGUI/GNUstep.h>
 #import <iTerm/iTerm.h>
 #import <iTerm/PseudoTerminal.h>
 #import <iTerm/PTYScrollView.h>
@@ -63,10 +65,6 @@
 
 @interface PSMTabBarControl (Private)
 - (void)update;
-@end
-
-@interface NSWindow (private)
-- (void)setBottomCornerRounded:(BOOL)rounded;
 @end
 
 // keys for attributes:
@@ -313,8 +311,6 @@ NSString *sessionsKey = @"sessions";
 	
     if (!_fullScreen) {
 		_toolbarController = [[PTToolbarController alloc] initWithPseudoTerminal:self];
-		if ([[self window] respondsToSelector:@selector(setBottomCornerRounded:)])
-			[[self window] setBottomCornerRounded:NO];
 	}
     
 	// create the tab bar control
@@ -435,9 +431,7 @@ NSString *sessionsKey = @"sessions";
 	[(PTYWindow*)[self window] setLayoutDone];
 
     if (!_fullScreen) {
-		_toolbarController = [[PTToolbarController alloc] initWithPseudoTerminal:self];
-		if ([[self window] respondsToSelector:@selector(setBottomCornerRounded:)])
-			[[self window] setBottomCornerRounded:NO];
+		_toolbarController = [[PTToolbarController alloc] initWithPseudoTerminal:self];	
 	}
     
 	// create the tab bar control

@@ -8,7 +8,8 @@
 //  Copyright (c) 2001 Kiichi Kusama. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <GNUstepBase/GNUstep.h>
+#import <GNUstepGUI/GNUstep.h>
 #import <iTerm/PreferencePanel.h>
 
 int main(int argc, const char *argv[])
